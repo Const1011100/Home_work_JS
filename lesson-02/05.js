@@ -4,5 +4,6 @@ let passport = {
 };
 let passportClone = { ...passport };
 passportClone.name = 'Ivan';
-console.log(passportClone.name);
 console.log(passport.name);
+console.log(passportClone.name);
+
